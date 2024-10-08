@@ -280,7 +280,7 @@ class HomePage extends StatelessWidget {
       children: [
         Container(
           height: MediaQuery.of(context).size. height * 0.08,
-          //width: MediaQuery.of(context).size. width * 0.7,
+          width: MediaQuery.of(context).size. width,
         ),
         Positioned(
           right: 230,
